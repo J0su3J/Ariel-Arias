@@ -9,6 +9,7 @@
     top:0;
     left: 5.001%;
     outline: 1px solid #000;
+    box-shadow: 10px 10px 10px black;
 }
 nav{    
     width: 90%;

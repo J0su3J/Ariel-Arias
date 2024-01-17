@@ -14,6 +14,9 @@
         background: url(/img/body.png);
         background-size:cover;
         background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 </style>
 <body>
@@ -47,7 +50,7 @@
     <section id="">
         <center><div class="container1">
             <!-- <center><video autoplay muted class="banner" src="img/banner video.mp4"></video></center>  -->
-            <center><video class="banner" autoplay muted src="img/banner video.mp4"></video></center>
+            <center><video class="banner" autoplay loop muted src="img/banner video.mp4"></video></center>
         </div></center>
             
            
@@ -62,11 +65,13 @@
         .container1{
             width: 90%;
             height: 100%;
+            
         }
         .banner{
             width: 100%;
             border-bottom-left-radius:2% ;
             border-bottom-right-radius: 2%;
+            box-shadow: 10px 10px 10px black;
             
             
         }
